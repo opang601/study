@@ -101,6 +101,8 @@ public class SellController {
 
 **적용 화면**
 
+**http://localhost/swagger-ui.html**
+
 ![20190514_112315](https://user-images.githubusercontent.com/48464744/57666407-c4983180-763a-11e9-8a03-72851a8635c8.png)
 
 
