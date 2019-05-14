@@ -1,13 +1,13 @@
 ## Rest API에 Swagger 사용
 
-Swagger란?
+**Swagger란?**
 - Open API 개발시 API문서를 자동으로 생성해 주는 프레임워크.
 
-장점
+**장점**
 - API 연동규격서를 문서화 하면 시간이 갈수록 소스와 싱크가 안 맞는 문제 발생.
 - 별도의 연동테스트 Tool(Rest Console,Post Man)등을 사용 안하고 테스트 가능.
 
-Swagger Maven 추가
+**Swagger Maven 추가**
 ~~~xml
 <!-- swagger -->
 <dependency>
@@ -23,7 +23,7 @@ Swagger Maven 추가
 </dependency>
 ~~~
 
-설정
+**설정**
 ~~~java
 @Configuration
 @EnableSwagger2
@@ -54,7 +54,7 @@ public class SwaggerConfig{
 }
 ~~~
 
-Controller 에서 내용 정의
+**Controller 에서 내용 정의**
 
 ~~~java
 @RestController
@@ -98,3 +98,9 @@ public class SellController {
     }
 }
 ~~~
+
+**적용 화면**
+
+![20190514_112315](https://user-images.githubusercontent.com/48464744/57666407-c4983180-763a-11e9-8a03-72851a8635c8.png)
+
+
